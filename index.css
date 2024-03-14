@@ -1,0 +1,270 @@
+*{
+    margin: 00px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+a:hover{
+    color: #e59a21;
+}
+
+
+#all{
+}
+
+
+#title{
+    width: 20%;
+    height: 100vh;
+    background-repeat:no-repeat ;
+    background-size: auto 100% ;
+    background-image: url("images/bg.png");
+    background-position: -80px;
+    color: white;
+    font-size: 128px;
+    font-weight: bolder;
+    text-align: center;
+    float:right;
+    writing-mode: vertical-rl;
+
+}
+
+#container{
+    width: 80%;
+    background-color: #cee7fd;
+    background-image: url("images/as.webp");
+    display: flex;
+    align-items: center;
+    float:left;
+}
+
+#tools{
+    align-self:flex-end ;
+    width: 72px;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.tool_block{
+    width: 100%;
+    height: 80px;
+    border-top-style: solid;
+    border-color: #ffffff;
+    backdrop-filter: blur(2px);
+}
+
+.tool_item{
+    width: 56px;
+    height: 56px;
+    background-size: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-inline: auto;
+}
+
+#t1{
+    background-image:url("images/推特.png") ;
+}
+
+#t2{
+    background-image: url("images/QQ.png");
+}
+
+#t3{
+    background-image: url("images/微信.png");
+}
+
+#t4{
+    background-image: url("images/邮箱.png");
+}
+#t5{
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+}
+.tool{
+    width:24px;
+    height:24px;
+}
+
+
+
+#center_context{
+    width:65%;
+}
+
+.context_row{
+    width:100%;
+    display: flex;
+    padding: 5px;
+}
+
+.info{
+    width: 340px;
+    height: 120px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+
+.profile{
+    border-radius: 50%;
+    margin-left: 10px;
+    background-size: 100% ;
+}
+
+.info_node{
+    width: 90px;
+    height: 90px;
+}
+
+#p1{
+    background-image: url("/images/profile1.jpg");
+}
+
+#p2{
+    background-image: url("/images/profile2.webp");
+}
+
+#p3{
+    background-image: url("/images/profile3.webp");
+}
+#p4{
+    background-image: url("/images/profile4.jpg");
+}
+#p5{
+    background-image: url("/images/profile5.jpg");
+}
+#p6{
+    background-image: url("/images/increase.svg");
+}
+#p7{
+    background-image: url("/images/profile1.jpg");
+}
+#p8{
+    background-image: url("/images/profile8.jpg");
+}
+#p9{
+    background-image: url("/images/profile9.jpg");
+}
+.info:hover .info_node{
+    display: flex;
+
+}
+
+.info:hover .info_frame {
+    display: flex;
+
+}
+.info:hover {
+    backdrop-filter: blur(4px);
+    box-shadow: 1px 1px 3px 1px #ffffff;
+}
+
+
+.info_frame{
+    width: 210px;
+    height: 80px;
+    margin: 10px ;
+    flex-direction: column;
+    display: none;
+    border-radius: 10%;
+}
+.info_name{
+    width: 80%;
+    height: 30%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+}
+.info_memo{
+    width: 100%;
+    height: 70%;
+    font-family: 东京街角的小浪漫（非商用）;
+    font-size: 14px;
+    color: #fafcfd;
+    text-align: left;
+    magin: 10px;
+    border-radius: 4px;
+
+}
+
+
+#card{
+    width: 35%;
+    height: 100vh;
+    box-shadow: 0 0 3px 1px #ffffff;
+    backdrop-filter: blur(7px);
+
+}
+
+#card_profile{
+    width: 120px;
+    height: 120px;
+    background-image: url("/images/profile2.webp");
+    margin: 0 auto;
+
+}
+
+#card_name{
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    width: 100%;
+    height: 40px;
+    color: #f8f8f8;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#card_tag{
+    width: 100%;
+    height: 50px;
+    color: #e59a21;
+    font-family: 东京街角的小浪漫（非商用） ;
+    text-align: center;
+}
+#card_msg{
+    height: 200px;
+    font-family: 东京街角的小浪漫（非商用） ;
+    color: white;
+    text-align: center;
+}
+#card_goto{
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+
+}
+#card_button{
+    color: #ffffff;
+    border-color: #ffffff;
+    border-width: 1px;
+    font-weight: normal;
+    font-family: 东京街角的小浪漫（非商用）;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 5px;
+    align-self: center;
+    margin:  0px auto;
+}
+#card_button:hover{
+    background-color: rgba(250, 186, 93, 0.10);
+    color: #e59a21;
+    border-color:#e59a21;
+    box-shadow: 0px 0px 3px 1px #e59a21;
+
+}
+
+

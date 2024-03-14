@@ -1,0 +1,75 @@
+ <div class="box11  margin1" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" >主页</a>
+    </div>
+    <div class="box12" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" >时间轴</a>
+    </div>
+    <div class="box11" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" >分类</a>
+    </div>
+    <div class="box11" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" >关于</a>
+    </div>
+    <div class="box11" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" >标签</a>
+    </div>
+    <div class="box11" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" >友邻</a>
+    </div>
+    <div class="box12" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" >下载站</a>
+    </div>
+
+    <div class="img1 margin2"></div>
+    <div class="img2 "></div>
+
+</div>
+<div class="box2 ">
+    <!--这是左边的简介-->
+    <div class="box21 ">
+
+        <div class="boxone ">
+            <div class="box211 ">
+                <div class="img3 "></div>
+            </div>
+            <div class="box212 ">
+                <span style=" font-size: 25px;font-weight: bold;">肖新晨</span>
+            </div>
+            <div class="box212 ">陕西师范大学</div>
+            <div class="box213 ">
+                <div class="imgxy "></div>
+                陕西
+            </div>
+            <div class="box99 ">
+                <div class="box214 ">文章</div>
+                <div class="box214 ">分类</div>
+                <div class="box214 ">标签</div>
+            </div>
+            <div class="box98 ">
+                <div class="box214 ">0</div>
+                <div class="box214 ">0</div>
+                <div class="box214 ">0</div>
+            </div>
+            <div class="box97 ">
+                <div class="box215 " >
+                    <a href="https://mail.qq.com/" title="email">
+                        <div class="img4" >
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="box215 ">0</div>
+                <div class="box215 ">0</div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="box22 "></div>
+</div>
+
+</body>
+</html>

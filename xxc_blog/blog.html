@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0 auto;
+            pedding: 0px;
+        }
+        .box1{
+            width: 100%;
+            height: 60px;
+            background-color: rgba(250, 255, 251, 0.01);
+            float: left;
+        }
+        .box11{
+            width: 40px;
+            height: 60px;
+            background-color: #fafffb;
+            float: left;
+        }
+        .box11:hover{
+
+            background-color: #fff1d9;
+
+        }
+        .box12{
+            width: 60px;
+            height: 60px;
+            background-color: #fafffb;
+            float: left;
+        }
+        .box12:hover{
+            background-color:  #fff1d9;
+        }
+        .margin1{
+            margin-left: 100px;
+        }
+        .margin2{
+            margin-left: 500px;
+        }
+
+
+        .img1{
+            width: 22px;
+            height: 60px;
+            background-image: url("images/1.png");
+            background-size: 1000px 500px;
+            margin-top: 1px;
+            background-position: -490px -220px;
+            float: left;
+        }
+        .img1:hover{
+            width: 22px;
+            height: 60px;
+            background-image: url("images/4.png");
+            background-size: 1000px 500px;
+            background-position: -490px -220px;
+
+            float: left;
+        }
+
+
+        .img2{
+            width: 22px;
+            height: 60px;
+            background-image: url("images/5.png");
+            background-size: 1000px 500px;
+            margin-top: 1px;
+            background-position: -490px -220px;
+            float: left;
+
+        }
+        .img2:hover{
+            background-image: url("images/6.png");
+        }
+
+        .img3{
+            width: 60px;
+            height: 60px;
+            background-image: url("images/3.png");
+
+            background-size: 900px 500px;
+            background-position: -420px -220px;
+            border-radius: 50%;
+
+
+
+        }
+        .img4{
+            width: 20px;
+            height: 20px;
+            background-image: url("images/邮件.png");
+            background-size:20px 20px;
+
+            float: left;
+        }
+        .img5{
+            width: 20px;
+            height: 20px;
+            background-image: url("images/HTML.png");
+            background-size:20px 20px;
+
+            float: left;
+        }
+        .img6{
+            width: 20px;
+            height: 20px;
+            background-image: url("images/self.png");
+            background-size:20px 20px;
+
+            float: left;
+        }
+        .box2{
+            width: 100%;
+            height: 1500px;
+            background-image: url("images/tree.png");
+            background-attachment: fixed;
+
+            float: left;
+        }
+        .box21{
+            width: 33%;
+            height: 1500px;
+            background-color: rgba(0,0,0,0);
+            float:left;
+
+        }
+        .box22{
+            width: 67%;
+            height: 1500px;
+            background-color:rgba(0,0,0,0);
+            float: left;
+        }
+        .box211{
+            width: 100%;
+            height: 60px;
+            background-color: rgba(0,0,0,0);
+            justify-content:center;
+            align-items:center;
+            margin-top: 10px;
+            display:flex;
+        }
+        .box210{
+            width: 100%;
+            height: 21px;
+
+            background-color: rgba(0,0,0,0);
+
+        }
+        .box212{
+            width: 100%;
+            height: 30px;
+            background-color: rgba(0,0,0,0);
+            text-align: center;
+            margin-top: 10px;
+
+            float: left;
+        }
+        .box213{
+            width: 100%;
+            height: 20px;
+            background-color: rgba(0,0,0,0);
+
+            float: left;
+        }
+        .imgxy{
+            width: 20px;
+            height: 20px;
+            background-image: url("images/位置.png");
+            background-size: 20px 20px;
+            margin-top: 1px;
+            background-position: 0px 0px;
+            margin-left: 38%;
+            float: left;
+        }
+        .boxone{
+            width: 70%;
+            height: 320px;
+            margin-top: 30px;
+            margin-left: 50px;
+
+            background-color: rgba(253, 255, 255, 0.8);
+            border-radius: 15px;
+
+
+        }
+        .boxtwo{
+            width: 70%;
+            height: 220px;
+            margin-top: 30px;
+            margin-left: 50px;
+            background-color: rgba(253, 255, 255, 0.8);
+            border-radius: 15px;
+            float: left;
+
+        }
+
+        .box214{
+            width: 38px;
+            height: 14px;
+            background-color: rgba(0,0,0,0);
+            font-size: 14px;
+            text-align: center;
+
+            float: left;
+        }
+        .box99{
+            width: 100%;
+            height: 40px;
+            background-color: rgba(0,0,0,0);
+            margin-top: 30px;
+
+            display: flex;
+            align-items: flex-end;
+
+            justify-content: center;
+
+        }
+        .box98{
+            width: 100%;
+            height: 20px;
+            background-color:rgba(0,0,0,0) ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+        .box96{
+            width: 100%;
+            height: 1px;
+            background-color:rgba(0,0,0,0) ;
+            margin-top: 30px;
+            float: left;
+        }
+        .box97{
+            width: 100%;
+            height: 20px;
+            background-color:rgba(0,0,0,0) ;
+            align-items: center;
+            display: flex;
+        }
+        .box215{
+            width: 20px;
+            height: 20px;
+            background-color: rgba(0,0,0,0);
+            font-size: 14px;
+            text-align: center;
+
+           display: flex;
+        }
+        .boxtxt{
+            width: 100%;
+            height: 30px;
+            background-color: rgba(0,0,0,0);
+            margin-top: 20px;
+            display: flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .boxtxtx{
+            width: 100%;
+            height: 30px;
+            background-color: rgba(0,0,0,0);
+            margin-top: 20px;
+            display: flex;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .boxtxt1{
+            width: 50px;
+            height: 30px;
+            background-color:rgba(0,0,0,0);
+            margin-left: 20px;
+            font-size: 12px;
+            font-weight: lighter;
+            float: left;
+        }
+        .boxtxt1112{
+            width: 50px;
+            height: 1px;
+            background-color:rgba(0,0,0,0);
+            margin-left: 20px;
+
+            font-size: 12px;
+            font-weight: lighter;
+            float: left;
+        }
+        .boxtxt111{
+            width: 100%;
+            height: 20px;
+            background-color:rgba(0,0,0,0);
+            margin-left: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            float: left;
+        }
+        .boxtxt:hover{
+            background-color:  #f4fdff;
+        }
+        .boxtxt2{
+            width: 50px;
+            height: 30px;
+            background-color:rgba(0,0,0,0);
+            margin-left: 30px;
+            font-size: 16px;
+            margin-top: 8px;
+            text-align: center;
+            text-decoration: black;
+            float: left;
+
+        }
+        .boxtxt3{
+            width: 20px;
+            height: 20px;
+            background-color: #f4fdff;
+            margin-left: 100px;
+
+            font-size: 16px;
+            border-radius: 20%;
+            text-decoration: black;
+            text-align: center;
+            float: left;
+
+        }
+        .box221{
+            width: 80%;
+            height: 400px;
+            background-color:  #f4fdff;
+            border-radius: 20px;
+            margin-left: 30px;
+            margin-top: 20px;
+            float: left;
+        }
+        .box2221{
+            width: 80%;
+            height: 40px;
+            background-color:  rgba(0,0,0,0);
+            margin-left: 30px;
+            margin-top: 20px;
+            float: left;
+        }
+        .box2222{
+            width: 6%;
+            height: 100%;
+            background-color: #213aff;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 20%;
+            margin-left: 38%;
+            float: left;
+        }
+        .box2223{
+            width: 6%;
+            height: 100%;
+            background-color: #f7f6ff;
+            margin-left: 2%;
+            border-radius: 20%;
+            font-size: 20px;
+            text-align: center;
+            float: left;
+        }
+        .box2223:hover{
+            background-color: #fffab3;
+        }
+        .box2224{
+            width: 18%;
+            height: 100%;
+            background-color: #fdfdff;
+            margin-left: 20%;
+            border-radius: 10%;
+            font-size: 20px;
+            text-align: center;
+            float: left;
+        }
+        .box2224:hover{
+            background-color: #fffab3;
+        }
+        .boxtime0{
+            width: 100%;
+            height:5%;
+            background-color: rgba(0,0,0,0);
+        }
+        .boxtime{
+            width: 100%;
+            height:8%;
+            background-color: rgba(0,0,0,0);
+            float:left;
+
+        }
+        .boxtime1{
+            width: 15%;
+            height:100%;
+            background-color: rgba(0,0,0,0);
+            margin-left: 2%;
+            float:left;
+
+        }
+        .boxtitel{
+            width: 90%;
+            height:13%;
+            background-color: rgba(0,0,0,0);
+            margin-left: 5%;
+            float:left;
+
+        }
+        .boxbody{
+            width: 90%;
+            height:55%;
+            background-color: rgba(0,0,0,0);
+            margin-left: 5%;
+            float:left;
+
+        }
+        .boxbutton{
+            width: 12%;
+            height:7%;
+            background-color: #fcffcc;
+            border-radius: 5%;
+            margin-left: 5%;
+            margin-top: 5%;
+            float:left;
+
+        }
+        .boxbutton:hover{
+            background-color: #f9ffa9;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="box1">
+
+    <div class="box11  margin1" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" ><span style="color: #02040a">主页</span></a>
+    </div>
+    <div class="box12" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" ><span style="color: #02040a">时间轴</span></a>
+    </div>
+    <div class="box11" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" ><span style="color: #02040a">分类</span></a>
+    </div>
+    <div class="box11" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" ><span style="color: #02040a">关于</span></a>
+    </div>
+    <div class="box11" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" ><span style="color: #02040a">标签</span></a>
+    </div>
+    <div class="box11" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" ><span style="color: #02040a">友邻</span></a>
+    </div>
+    <div class="box12" style="display: flex; align-items: center;">
+        <a href="https://www.baidu.com" style="text-decoration: #02040a" ><span style="color: #02040a">下载站</span></a>
+    </div>
+    <a href="" title="刷新"><div class="img1 margin2"></div></a>
+    <a href="" title="搜索"><div class="img2"></div></a>
+
+
+</div>
+<div class="box2 ">
+    <!--这是左边的简介-->
+    <div class="box21 ">
+
+        <div class="boxone ">
+            <div class="box210"></div>
+            <div class="box211 ">
+                <div class="img3 "></div>
+            </div>
+            <div class="box212 ">
+                <span style=" font-size: 25px;font-weight: bold;">肖新晨</span>
+            </div>
+            <div class="box212 ">陕西师范大学</div>
+            <div class="box213 ">
+                <div class="imgxy "></div>
+                西安
+            </div>
+            <div class="box99 ">
+                <div class="box214 ">文章</div>
+                <div class="box214 ">分类</div>
+                <div class="box214 ">标签</div>
+            </div>
+            <div class="box98 ">
+                <div class="box214 ">9</div>
+                <div class="box214 ">2</div>
+                <div class="box214 ">3</div>
+            </div>
+            <div class="box96 "></div>
+            <div class="box97 ">
+                <div class="box215 " >
+                    <a href="https://mail.qq.com/" style="text-decoration: #02040a" title="发送email">
+                        <div class="img4" >
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="box215 ">
+                    <a href="https://mail.qq.com/" title="简介">
+                        <div class="img6" >
+                        </div>
+
+                    </a>
+                </div>
+                <div class="box215 ">
+                    <a href="css code.html" title="代码">
+                    <div class="img5" >
+                    </div>
+
+                </a></div>
+            </div>
+
+        </div>
+        <div class="boxtwo">
+            <div class="boxtxt">
+                <div class="boxtxt1">分类</div>
+            </div>
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt">
+                    <div class="boxtxt2"><span style="color: #02040a">马原</span></div>
+                    <div class="boxtxt3">4</div>
+                </div>
+            </a>
+
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt">
+                    <div class="boxtxt2"><span style="color: #02040a">毛中特</span></div>
+                    <div class="boxtxt3">5</div>
+                </div>
+            </a>
+
+        </div>
+        <div class="boxtwo">
+            <div class="boxtxt">
+                <div class="boxtxt1">标签</div>
+            </div>
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt">
+                    <div class="boxtxt2"><span style="color: #02040a">马克思</span></div>
+                    <div class="boxtxt3">3</div>
+                </div>
+            </a>
+
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt">
+                    <div class="boxtxt2"><span style="color: #02040a">井冈山</span></div>
+                    <div class="boxtxt3">1</div>
+                </div>
+            </a>
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt">
+                    <div class="boxtxt2"><span style="color: #02040a">中特</span></div>
+                    <div class="boxtxt3">1</div>
+                </div>
+            </a>
+
+        </div>
+        <div class="boxtwo">
+            <div class="boxtxt">
+                <div class="boxtxt1">时间</div>
+            </div>
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt">
+                    <div class="boxtxt2"><span style="color: #02040a">2023</span></div>
+                    <div class="boxtxt3">9</div>
+                </div>
+            </a>
+
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt">
+                    <div class="boxtxt2"><span style="color: #02040a">2022</span></div>
+                    <div class="boxtxt3">0</div>
+                </div>
+            </a>
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt">
+                    <div class="boxtxt2"><span style="color: #02040a">2021</span></div>
+                    <div class="boxtxt3">0</div>
+                </div>
+            </a>
+
+        </div>
+        <div class="boxtwo">
+            <div class="boxtxt">
+                <div class="boxtxt1">最新文章</div>
+            </div>
+            <div class="boxtxtx">
+                <div class="boxtxt1112">2023-9-15</div>
+            </div>
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt111">
+                    <span style="color: #02040a">马克思主义基本原理</span>
+                </div>
+            </a>
+            <div class="boxtxtx">
+                <div class="boxtxt1112">2023-9-14</div>
+            </div>
+            <a href="https://mail.qq.com/">
+                <div class="boxtxt111">
+                    <span style="color: #02040a">中国特色社会主义概述</span>
+                </div>
+            </a>
+
+
+        </div>
+
+
+
+    </div>
+    <div class="box22 ">
+        <div class="box221">
+            <div class="boxtime0"></div>
+            <div class="boxtime">
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">1天前发表</span></div>
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">1天前更新</span></div>
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">10分钟读完</span></div>
+            </div>
+            <div class="boxtitel"><span style="font-size: 2rem;font-weight: bold">马克思主义基本原理</span></div>
+            <div class="boxbody"><span >马克思主义（Marxism）是马克思主义理论体系的简称，是关于全世界无产阶级和全人类彻底解放的学说。它由马克思主义哲学、马克思主义政治经济学和科学社会主义三大部分组成，是马克思、恩格斯在批判地继承和吸收人类关于自然科学、思维科学、社会科学优秀成果的基础上于19世纪40年代创立的，并在实践中不断地丰富、发展和完善的无产阶级思想的科学体系。马克思主义是我们立党立国、兴党兴国的根本指导思想。实践告诉我们，中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行。拥有马克思主义科学理论指导是我们党坚定信仰信念、把握历史主动的根本所在……</span></div>
+            <div class="boxbutton"><a href="" style="text-decoration: #02040a"><span style="font-size: 100%;font-weight: lighter;">阅读更多</span></a></div>
+        </div>
+        <div class="box221">
+            <div class="boxtime0"></div>
+            <div class="boxtime">
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">2天前发表</span></div>
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">2天前更新</span></div>
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">10分钟读完</span></div>
+            </div>
+            <div class="boxtitel"><span style="font-size: 2rem;font-weight: bold">中国特色社会主义概述</span></div>
+            <div class="boxbody"><span >中国特色社会主义是科学社会主义理论逻辑与中国社会发展历史逻辑的辩证统一。中国特色社会主义理论体系，是中国特色社会主义的理论载体，是在与时俱进的实践中破解难题、创立发展的。在新的历史形势下，我们要把中国特色社会主义这篇大文章写得更加壮阔、更加优美，就一定要深入贯彻落实党的十九大精神，继续发扬与时俱进的精神，逢山开路、遇河架桥，在全面建成小康社会新的实践基础上，始终不渝坚持与发展中国特色社会主义理论体系……</span></div>
+            <div class="boxbutton"><a href="" style="text-decoration: #02040a"><span style="font-size: 1rem;font-weight: lighter;">阅读更多</span></a></div>
+        </div>
+        <div class="box221">
+            <div class="boxtime0"></div>
+            <div class="boxtime">
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">3天前发表</span></div>
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">3天前更新</span></div>
+                <div class="boxtime1"><span style="font-size: 12px;font-weight: lighter">10分钟读完</span></div>
+            </div>
+            <div class="boxtitel"><span style="font-size: 2rem;font-weight: bold">三大改造概述</span></div>
+            <div class="boxbody"><span >三大改造，即中华人民共和国建立后，由中国共产党领导的对农业、手工业和资本主义工商业三个行业的社会主义改造。全国在1953年春天土地改革基本完成，1953年8月毛泽东同志在一个批示中指出：“从中华人民共和国成立，到社会主义改造基本完成，这是一个过渡时期。党在这个过渡时期的总路线和总任务，是要在一个相当长的时间内，基本上实现国家工业化和对农业、手工业和资本主义工商业的社会主义改造。这条总路线应该是照耀我们各项工作的灯塔，各项工作离开它就要犯'右倾'或‘左倾’的错误。”……</span></div>
+            <div class="boxbutton"><a href="" style="text-decoration: #02040a"><span style="font-weight: lighter;">阅读更多</span></a></div>
+        </div>
+        <div class="box2221">
+            <div class="box2222"><span style="vertical-align: middle">1</span></div>
+            <div class="box2223"><span style="vertical-align: middle">2</span></div>
+            <div class="box2223"><span style="vertical-align: middle">3</span></div>
+            <div class="box2224"><span style="vertical-align: middle">下一页</span></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

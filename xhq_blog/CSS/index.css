@@ -1,0 +1,451 @@
+.mainBackground{
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    background-image: url("../images/1920x1080-px-3D-abstract-ART-digital-manipulation-1741751-wallhere.com.jpg");
+    border-top-left-radius: 5%;
+    background-attachment: fixed;
+}
+.navTop{;
+    /*background-color: #a991ff;*/
+    width: 100%;
+    height: 64px;
+    /*background-color: #a991ff;*/
+    display: flex;
+    position: fixed;
+    top: 20px;
+}
+.leftNav{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background-color: #59DDDE;*/
+}
+.leftNav div{
+    width: 15%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.leftNav div:nth-child(1){
+    margin-left: 20%;
+}
+.leftNav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.leftNav div:hover{
+    background-color: #999999;
+    cursor: pointer;
+}
+.rightNav{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background-color: yellow;*/
+}
+.rightNav img{
+    width: 25px;
+    height: 25px;
+}
+
+.leftNav img{
+    width: 25px;
+    height: 25px;
+}
+
+.homePage{
+    display: flex;
+    /*justify-content: space-evenly;*/
+    justify-content: space-around;
+    align-items: center;
+    font-size: 80%;
+}
+
+.rightNav div{
+    width: 15%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.rightNav div:nth-child(1){
+    margin-left: 50%;
+}
+.rightNav a:nth-last-child(1){
+    color: white;
+    text-decoration: none;
+}
+.email{
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/email (2).png");
+}
+.email:hover{
+    background-image: url("../images/email (1).png");
+}
+.rightNav a:nth-last-child(1):hover{
+    color: #4e6ef2;
+}
+.background{
+    z-index: 0;
+    width: 100%;
+    height: 600px;
+    margin-left: 0px;
+    background-image: url("../images/3.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 13px;
+   /* filter: brightness(60%);*/
+}
+.title{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #f5f6f7;
+}
+.main{
+    width: 90%;
+    height: 100%;
+    margin-left: 8%;
+    padding-top: 45px;
+    /*background-color: #efefef;*/
+    display: flex;
+    justify-content: space-between;
+    /*position: relative;*/
+}
+.mianLeft{
+    height: 400px;
+    width: 20%;
+    background-color: #ffffff;
+    float: left;
+}
+.mainLeftRow1{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainLeftRow1 img{
+    width: 65%;
+    height: 75%;
+    border-radius: 50%;
+}
+.mainLeftRow1 img:hover{
+    cursor: pointer;
+    width: 70%;
+    height: 80%;
+}
+
+.mainLeftRow2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.mainLeftRow2 span{
+    font-size: 80%;
+}
+.mainLeftRow3{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainLeftRow3 div:nth-child(1){
+    margin-left: 0px;
+}
+.mainLeftRow3 div:nth-last-child(1){
+    margin-right: 0px;
+}
+.mainLeftRow4{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Email a{
+    text-decoration: none;
+    color: #B0E7FE;
+}
+.Email a:hover{
+    color: #4e6ef2;
+}
+.RRSS a{
+    text-decoration: none;
+    color: #FFDD69;
+}
+.RRSS a:hover{
+    color: #FFCF43;
+}
+.mainLeftRow5{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.mainLeftRow5 img{
+    width: 88px;
+    height: 15px;
+}
+
+.mianLeftRow4All{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.mainRight{
+    height: auto;
+    width: 70%;
+    /*float: left;*/
+    margin-left: 40px;
+}
+.mainRight div{
+    margin-left: 20px;
+    width: 90%;
+}
+.mainRightRow1{
+    width: 90%;
+    height: 300px;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.mainRightRow11{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainRightRow11 a{
+    text-decoration: none;
+}
+.test1 {
+    position: relative;
+    color: black;
+}
+.test2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, #FF0000,orange,yellow,rgba(0,255,0,1),blue,indigo,violet);
+}
+.mainRightRow12{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    border: 2px solid rgba(169, 169, 169, 0.11);
+    border-left: 5px solid green;
+}
+.mainRightRow12 a{
+    text-decoration: none;
+    color: #4e6ef2;
+}
+.mainRightRow13{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.mainRightRow2{
+    width: 90%;
+    height: 700px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+.mainRightRow21{
+    width: 80%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainRightRow21 a{
+    text-decoration: none;
+}
+.mainRightRow22{
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainRightRow22 img{
+    width: 16px;
+    height: 16px;
+}
+.mainRightRow23{
+    width: 80%;
+    height: 45%;
+}
+.mainRightRow23 img{
+    width: 100%;
+    height: 100%;
+}
+.mainRightRow24{
+    width: 80%;
+    height: 15%;
+    border-left: 5px solid green;
+}
+.TL{
+    padding-top: 10px;
+    color: #FFCF43;
+}
+.TL img{
+    width: 16px;
+    height: 16px;
+}
+.TLDR{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+
+}
+.mainRightRow24 a{
+    text-decoration: none;
+    color: #254EDB;
+}
+.mainRightRow25{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.mainRightRow25 a{
+    text-decoration: none;
+    color: #254EDB;
+}
+.mainRightRow26{
+    width: 80%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainRightRow26 a{
+    width: 20%;
+    height: 30px;
+    text-decoration: none;
+    background-color: #73c8ff;
+    color: white;
+    border-radius: 20px;
+}
+.mainRightRow26 a:hover{
+    background-color: #254EDB;
+}
+.read{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read img{
+    width: 16px;
+    height: 16px;
+}
+.mainRightRow3{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.mainRightRow3 a{
+    width: 5%;
+    height: 25px;
+    text-decoration: none;
+    background-color: #73c8ff;
+    color: white;
+    border-radius: 5px;
+}
+.github{
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/github.png");
+    border-radius: 50%;
+}
+.github:hover{
+    background-image: url("../images/github (1).png");
+}
+.weChat{
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/微信.png");
+    border-radius: 50%;
+}
+.weChat:hover{
+    background-image: url("../images/微信 (1).png");
+}
+.QQ{
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/qq.png");
+    border-radius: 50%;
+}
+.QQ:hover{
+    background-image: url("../images/qq (1).png");
+}
+.zhiHu{
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/知乎.png");
+    border-radius: 50%;
+}
+.zhiHu:hover{
+    background-image: url("../images/知乎 (1).png");
+}
+.RSS{
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/wifi.png");
+}
+.RSS:hover{
+    background-image: url("../images/wifi (1).png");
+}
+
+.Color1{
+    background-color: #D6E4FF;
+}
+.Color2{
+    background-color: #F3FBCB;
+}
+.Color3{
+    background-color: #CDF8FF;
+}
+.Color4{
+    background-color: #FFF6CE;
+}
+.Color5{
+    background-color: #FFE7D7;
+}
+.Color6{
+    background-color:#254EDB ;
+}

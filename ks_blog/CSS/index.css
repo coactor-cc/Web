@@ -1,0 +1,291 @@
+.background{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/背景.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top_nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.top_nav nav a{
+    text-decoration: none;
+    color: white;
+}
+.suibi{
+    margin-top: 10%;
+    width: 20%;
+    height: 10%;
+    font-size: 50px;
+    align-self: center;
+    text-align: center;
+}
+.leftNav{
+    margin: 10px 10px;
+}
+.rightNav{
+    margin-right: 2%;
+    display: flex;
+}
+.rightNav a{
+    margin: 10px 10px;
+}
+.rightNav a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.rightNav img{
+    width: 19px;
+    height: 19px;
+}
+.rightNav img:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.test_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.leftBot{
+    width: 75%;
+}
+
+.articleBox{
+    width: 85%;
+    height: 260px;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 15px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px #5d5858;
+}
+.articleBox:hover{
+    box-shadow: 0px 0px 20px #5d5858;
+}
+.articleBox a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    align-items: center;
+}
+.articleBox a:hover{
+    color: dodgerblue;
+}
+.leftArticle1{
+    width: 40%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.rightArticle1{
+    width: 60%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 60px 30px;
+}
+.leftArticle2{
+    width: 60%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    padding: 60px 30px;
+}
+.rightArticle2{
+    width: 40%;
+    background-color: cyan;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.bgI1{
+    background-image: url("../images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.bgI2{
+    background-image: url("../images/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.bgI3{
+    background-image: url("../images/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.bgI4{
+    background-image: url("../images/4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+ }
+
+.leftImageBox{
+
+}
+
+.rightImageBox{
+
+}
+.rightArticle1 img{
+    width: 19px;
+    height: 19px;
+    margin-top:3px
+}
+.leftArticle2 img{
+    width: 19px;
+    height: 19px;
+    margin-top:3px
+}
+.rightArticle1 span{
+    font-size: 7px;
+    color: lightsteelblue;
+}
+.leftArticle2 span{
+    font-size: 7px;
+    color: lightsteelblue;
+}
+.rightBot{
+    width: 24%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.person{
+    width: 85%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 3%;
+    margin-top: 15px;
+    margin-right: 15%;
+    box-shadow: 0px 0px 10px #5d5858;
+}
+.person:hover{
+    box-shadow: 0px 0px 20px #5d5858;
+}
+.herm{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("../images/头像.jpg");
+    background-size: 100%;
+    margin-top: 20px;
+}
+.personInfor{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.personInfor a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.followButton{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    color: white;
+}
+.followButton:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+.followImg{
+    width: 25%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.followImg img{
+    width: 28px;
+    height: 28px;
+}
+.notice{
+    width: 85%;
+    height: 10%;
+    margin-top: 10px;
+    margin-right: 15%;
+    border-radius: 3%;
+    box-shadow: 0px 0px 10px #5d5858;
+}
+.notice div{
+    margin-left: 10%;
+}
+.notice div:nth-child(1){
+    font-size: 18px;
+    margin-top: 6%;
+}
+.notice div:nth-child(2){
+    font-size: 15px;
+}
+.notice:hover{
+    box-shadow: 0px 0px 20px #5d5858;
+}
+.record{
+    width: 85%;
+    height: 35%;
+    box-shadow: 0px 0px 10px #5d5858;
+    margin-top: 10px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.record div:nth-child(1){
+    margin-left: 5%;
+    margin-top: 10%;
+    color: #757070;
+}
+.record div{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.record:hover{
+    box-shadow: 0px 0px 20px #5d5858;
+}
+.recordBox{
+    width: 80%;
+    height: 17%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recordBoxImg{
+    width: 30%;
+    height: 70%;
+}
+.recordBoxImg img{
+    width: 100%;
+    height: 100%;
+}
+.recordBoxText{
+    width: 80%;
+    height: 100%;
+}
+.recordBoxText a{
+    text-decoration: none;
+}
+.recordBoxText div:nth-last-child(1){
+    font-size: 10px;
+    color: #5d5858;
+}

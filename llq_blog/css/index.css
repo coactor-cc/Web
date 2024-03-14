@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "华文中宋", Helvetica, serif;
+}
+
+/*左侧栏目*/
+.leftBar{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftBarPicBox{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /*border: dashed;*/
+    background: url(../img/avatar.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.leftBarTextBox{
+    text-align: center;
+}
+
+.leftBarIconsBox{
+    margin: 25px 0 0 20px;
+    display: flex;
+}
+
+.iconBox{
+    width: 64px;
+    height: 64px;
+}
+
+/*右侧栏目*/
+.genShadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.genShadow:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    cursor: pointer;
+}
+
+.rightBar{
+    width: 70%;
+    margin: 50px 0 0 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigBar{
+    display: flex;
+    width: 100%;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.bigBarLeft{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 20px;
+    border-radius: 25px;
+    padding: 50px 0 0 30px;
+}
+
+.bigBarRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.genBar{
+    width: 100%;
+    height: 45%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.steamIcon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(../img/steam.png);
+    top: 30%;
+    left: 30px;
+}
+
+.genFont{
+    position: absolute;
+    top: 35%;
+    left: 75px;
+}
+
+.wikiIcon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(../img/wiki.png);
+    top: 30%;
+    left: 30px;
+}
+
+.eulerIcon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(../img/euler.png);
+    top: 30%;
+    left: 30px;
+}
+
+.adIcon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(../img/ad.png);
+    top: 30%;
+    left: 30px;
+}
+
+/*四小格*/
+.fourBox{
+    width: 100%;
+    height: 360px;
+    display: flex;
+}
+
+.fourBoxLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fourBoxLeftGen{
+    width: 100%;
+    height: 46%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.genBox{
+    width: 42%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.genFont2{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 15%;
+}
+
+.genBtn{
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+    padding: 4px 7px;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(245, 245, 245, 0.3);
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.genBtn:hover{
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.fourBoxRight{
+    width: 50%;
+    height: 100%;
+}
+
+.map{
+    border-radius: 20px;
+}
+
+.blogRow{
+    width: 100%;
+    height: 80px;
+}
